@@ -1,5 +1,15 @@
-// const heading = React.createElement('h1', {}, "Hello world from React")
+var x = 1
+a()
+b()
 
+console.log("1", x)
 
-const parent = React.createElement('div', { id: 'parent' }, React.createElement('div', { id: 'child1' }, React.createElement('h1', { id: 'heading' }, 'Heading')))
-const root = ReactDOM.createRoot(document.getElementById('root'))
+function a() {
+    var x = 100
+    console.log("2", x)
+}
+
+function b() {
+    var x = 200
+    console.log("3", x)
+}
