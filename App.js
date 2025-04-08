@@ -1,15 +1,5 @@
-var x = 1
-a()
-b()
 
-console.log("1", x)
+let a = 10
+console.log(a)
+var b =100
 
-function a() {
-    var x = 100
-    console.log("2", x)
-}
-
-function b() {
-    var x = 200
-    console.log("3", x)
-}
